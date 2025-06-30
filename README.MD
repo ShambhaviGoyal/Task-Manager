@@ -85,7 +85,7 @@ starter/
    ```bash
    npm install
    ```
-x
+
 3. **Set up environment variables**
 
    Create a `.env` file in the `starter/` directory with the following:
@@ -98,8 +98,6 @@ x
    ```bash
    npm start
    ```
-
----
 
 ## License
 
