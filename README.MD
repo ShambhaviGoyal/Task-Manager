@@ -85,7 +85,7 @@ starter/
    ```bash
    npm install
    ```
-
+x
 3. **Set up environment variables**
 
    Create a `.env` file in the `starter/` directory with the following:
@@ -98,10 +98,6 @@ starter/
    ```bash
    npm start
    ```
-
-5. **Open your browser**
-
-   Visit [http://localhost:3000](http://localhost:3000) to use the Task Manager.
 
 ---
 
