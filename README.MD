@@ -1,23 +1,47 @@
-# Task Manager App
+# Task Manager
 
-## Project Overview
+A full-stack Task Manager application built with Node.js, Express, MongoDB, and vanilla JavaScript for frontend. It allows users to create, read, update, and delete tasks with robust error handling and clean UI.
 
-A full-stack Task Manager application built with JavaScript, HTML, CSS on the frontend, and Node.js with Express and MongoDB on the backend.  
-It allows users to create, update, and delete tasks via a REST API.
+## Overview
+
+This Task Manager application provides a RESTful API backend with MongoDB as the database, and a responsive frontend to manage daily tasks efficiently. It supports full CRUD operations on tasks, including task completion status, and handles errors gracefully with custom error middleware.
+---
+## Features
+
+- Create new tasks with validation  
+- View all existing tasks  
+- Update task details (name and completion status)  
+- Delete tasks  
+- Custom error handling for invalid routes and database errors  
+- Responsive and user-friendly frontend interface  
+- Loading indicators and form alerts for better UX  
 
 ---
 
-## Features
+## Technologies
 
-- Add new tasks with title and description
-- Edit existing tasks  
-- Delete tasks  
-- Mark tasks as completed  
-- Data persistence using MongoDB  
-- RESTful API to interact with tasks  
-- Responsive and user-friendly UI
+- **Backend:** Node.js, Express, MongoDB, Mongoose  
+- **Frontend:** HTML, CSS, JavaScript, Axios  
+- **Others:** dotenv for environment variables, Nodemon for development, Postman for API testing  
 
-In order to run the project, setup .env and set MONGO_URI variable equal to DB connection string.
+---
 
-The default server port is 5000 to avoid conflicts.
+## Installation
 
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/ShambhaviGoyal/task-manager.git
+   cd task-manager
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+
+   ```bash
+   npm run dev
+   ```
