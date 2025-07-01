@@ -1,14 +1,46 @@
-# Task Manager
+# Productivity Bundle Task Manager
 
-A full-stack Task Manager application built with Node.js, Express, MongoDB, and vanilla JavaScript. This app allows users to create, read, update, and delete tasks, with robust error handling and a clean, responsive UI.
+A full-stack productivity web application that seamlessly integrates a Task Manager, Notes & Journaling, and a Pomodoro Timer—designed to help users stay organized, focused, and motivated. Built using Node.js, Express, MongoDB, and vanilla JavaScript, the app delivers a minimalist yet responsive user experience with practical features and clean UI enhancements.
+
+This is part of an evolving Productivity Bundle specifically tailored for students. I plan to continuously expand it with tools and enhancements to support effective study habits and time management.
+
+---
+
+## ✨ Key Features
+
+### ✅ Task Manager
+
+- Perform full CRUD operations on tasks  
+- Set **due dates** and toggle **completion status**  
+- Filter tasks by status: _All_, _Pending_, or _Completed_  
+- Unlock a fun **“Mystery Task”** when all tasks are completed  
+
+### 📝 Notes & Journaling
+
+- Add and delete lightweight notes  
+- Persistent note-saving using localStorage  
+- Ideal for quick thoughts or journaling sessions  
+
+### ⏱️ Pomodoro Timer
+
+- Select a task and start focus sessions  
+- Control the timer with **start**, **pause**, and **reset**  
+- Enhance focus with built-in **ambient sounds** like _Lofi_ and _Rain_  
 
 ---
 
-## Overview
+## Tech Stack
 
-This Task Manager provides a RESTful API backend using Express and MongoDB, and a simple frontend for managing daily tasks. Users can add, edit, mark as completed, and delete tasks. The app features custom error handling, loading indicators, and form alerts for a smooth user experience.
+- **Backend:** Node.js, Express, MongoDB, Mongoose
+- **Frontend:** HTML, Tailwind CSS, vanilla JavaScript, Axios
+- **Other:** dotenv, Nodemon
 
 ---
+
+## 🎥 Demo
+
+<video src="public/video demo.mp4" controls width="600"></video>
+
 
 ## Project Structure
 
@@ -39,66 +71,64 @@ starter/
     main.css
     normalize.css
     task.html
+    audio/
+      lofi.mp3
+      rain.wav
   routes/
     tasks.js
 ```
 
-- **controllers/**: Route handler logic for tasks
-- **db/**: MongoDB connection logic
-- **errors/**: Custom error classes and helpers
-- **middleware/**: Express middleware for async, error handling, and 404s
-- **models/**: Mongoose schema for tasks
-- **public/**: Frontend assets (HTML, CSS, JS)
-- **routes/**: Express route definitions
-
 ---
 
-## Technologies Used
-
-- **Backend:** Node.js, Express, MongoDB, Mongoose
-- **Frontend:** HTML, CSS, JavaScript (vanilla), Axios
-- **Other:** dotenv (environment variables), Nodemon (development), Postman (API testing)
-
----
-
-## Features
-
-- Create new tasks with validation
-- View all existing tasks
-- Update task details (name and completion status)
-- Delete tasks
-- Custom error handling for invalid routes and database errors
-- Responsive and user-friendly frontend interface
-- Loading indicators and form alerts for better UX
-
----
-
-## Installation & Usage
+## Getting Started
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ShambhaviGoyal/task-manager.git
-   cd task-manager/starter
+   ```sh
+   git clone https://github.com/ShambhaviGoyal/Task-Manager.git
+   cd starter
    ```
 
 2. **Install dependencies**
-   ```bash
+   ```sh
    npm install
    ```
 
-3. **Set up environment variables**
-
-   Create a `.env` file in the `starter/` directory with the following:
+3. **Set up environment variables**  
+   Create a `.env` file in the `starter/` directory:
    ```
    MONGO_URI=your_mongodb_connection_string
    PORT=3000
    ```
 
 4. **Start the development server**
-   ```bash
+   ```sh
    npm start
    ```
+---
+
+## API Endpoints
+
+- `GET /api/v1/tasks` — Get all tasks
+- `POST /api/v1/tasks` — Create a new task
+- `GET /api/v1/tasks/:id` — Get a single task
+- `PATCH /api/v1/tasks/:id` — Update a task
+- `DELETE /api/v1/tasks/:id` — Delete a task
+
+---
+
+## 📌 Roadmap & Future Plans
+
+This app is part of an ongoing **Productivity Bundle** project. Planned features include:
+
+- Daily habit tracker  
+- Calendar/schedule view  
+- Study session analytics  
+- Customizable productivity themes  
+- More ambient sound options  
+
+The goal is to build a single go-to platform to help students manage their academic life efficiently.
+
 
 ## License
 
-This project is licensed under the ISC.
+This project is licensed under the ISC License.
