@@ -39,7 +39,7 @@ This is part of an evolving Productivity Bundle specifically tailored for studen
 
 ## 🎥 Demo
 
-<video src="public/video demo.mp4" controls width="600"></video>
+<img src="public/video demo.gif" controls width="600"></img>
 
 
 ## Project Structure
