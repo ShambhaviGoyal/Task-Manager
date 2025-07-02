@@ -39,7 +39,7 @@ This is part of an evolving Productivity Bundle specifically tailored for studen
 
 ## 🎥 Demo
 
-<img src="demo.gif"></img>
+<img src="https://i.imgur.com/QGAPprG.gif" alt="Demo" width="600"/>
 
 
 
