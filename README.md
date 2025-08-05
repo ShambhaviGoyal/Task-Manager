@@ -38,7 +38,8 @@ This is part of an evolving Productivity Bundle specifically tailored for studen
 ---
 
 ## 🎥 Demo
-[Click here to view the video demo](https://i.imgur.com/QGAPprG.gif)
+![Demo](https://i.imgur.com/QGAPprG.gif)
+
 
 
 
