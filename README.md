@@ -38,7 +38,7 @@ This is part of an evolving Productivity Bundle specifically tailored for studen
 ---
 
 ## 🎥 Demo
-[Click here to view the video demo](https://i.imgur.com/QGAPprG.gif)
+[▶️ Watch the Demo]([https://github.com/user-attachments/assets/541e43ac-3502-4bd2-a23b-d2e307a7fbb3]
 
 
 ## Project Structure
