@@ -38,7 +38,9 @@ This is part of an evolving Productivity Bundle specifically tailored for studen
 ---
 
 ## 🎥 Demo
-[▶️ Watch the Demo]([https://github.com/user-attachments/assets/541e43ac-3502-4bd2-a23b-d2e307a7fbb3]
+
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/541e43ac-3502-4bd2-a23b-d2e307a7fbb3)
+
 
 
 ## Project Structure
